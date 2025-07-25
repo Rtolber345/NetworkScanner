@@ -1,0 +1,121 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle with gradient -->
+    <path android:pathData="M0,54A54,54 0,0 1,108 54A54,54 0,0 1,0 54z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="20"
+                android:endX="88"
+                android:endY="88"
+                android:type="linear">
+                <item android:color="#1976D2" android:offset="0.0" />
+                <item android:color="#2196F3" android:offset="0.5" />
+                <item android:color="#42A5F5" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    
+    <!-- Router main body (rectangular with rounded corners) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,65 C20,62 22,60 25,60 L83,60 C86,60 88,62 88,65 L88,75 C88,78 86,80 83,80 L25,80 C22,80 20,78 20,75 Z" />
+    
+    <!-- Router front panel -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M25,65 L83,65 L83,75 L25,75 Z" />
+    
+    <!-- Left antennas -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M28,35 L28,60"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M35,30 L35,60"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <!-- Right antennas -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M73,30 L73,60"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M80,35 L80,60"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <!-- WiFi signal waves (concentric arcs) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M42,45 A12,12 0,0 1,66 45"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M46,48 A8,8 0,0 1,62 48"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M50,51 A4,4 0,0 1,58 51"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    
+    <!-- WiFi signal center dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,55 A2,2 0,0 1,56 55 A2,2 0,0 1,52 55z" />
+    
+    <!-- LED indicator lights on router front -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M30,68 A1.5,1.5 0,0 1,33 68 A1.5,1.5 0,0 1,30 68z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M36,68 A1.5,1.5 0,0 1,39 68 A1.5,1.5 0,0 1,36 68z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M42,68 A1.5,1.5 0,0 1,45 68 A1.5,1.5 0,0 1,42 68z" />
+    
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M48,68 A1.5,1.5 0,0 1,51 68 A1.5,1.5 0,0 1,48 68z" />
+    
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M54,68 A1.5,1.5 0,0 1,57 68 A1.5,1.5 0,0 1,54 68z" />
+    
+    <!-- Router feet/base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,80 L32,80 L32,85 L25,85 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,80 L83,80 L83,85 L76,85 Z" />
+        
+</vector>
